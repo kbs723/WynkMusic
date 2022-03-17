@@ -1,0 +1,74 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 200vh;
+}
+nav{
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    background-color: var(--navBgColor);
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: var(--navBorder) 1px solid;
+    box-shadow: 0px 11px 27px -27px rgba(0,0,0,0.62);
+    font-weight: bold;
+    color: var(--navColor);
+    border-top: 3px solid red;
+}
+#logo{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+#dark_logo{
+    display: none;
+}
+.left_nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.left_nav span{
+    padding: 5px;
+}
+.right_nav span, i{
+    padding: 10px;
+}
+.right_nav{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.mid_nav{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--navInp);
+    border-radius: 5px;
+}
+#theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sun{
+    color: rgb(250, 250, 85);
+    display: none;
+}
+.mid_nav input{
+    border: none;
+    background-color: var(--navInp);
+    padding: 13px 12px 13px 0px;
+    width: 70%;
+}
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>"Listen &amp; Download Latest MP3 Tamil, Hindi, English, Bollywood Songs Online | Wynk Music"</title>
+    
+    <link rel="stylesheet" type="text/css" href="StyleSheets/nav_style.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/slide_img.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/mid_style.css">
+    <link rel = "icon" href = "tittle.png" type = "image/wynk-icon">
+    <script src="Jscript.js"></script>
+    <style type="text/css">
+    :root{
+        --navBgColor:white;
+        --artistColor:rgb(78, 78, 78);
+        --footBgColor:white;
+        --navInp:white;
+        --navColor:rgb(65, 64, 64);
+        --navBorder:whitesmoke;
+        --dispFoot:none;
+        --trans:0s;
+    }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+       <div id="logo">
+           <img src="Logos/wynk-logo.png" width="148px" height="27px" id="light_logo">
+           <img src="https://wynk.in/assets/images/Wynklogo-white.svg" width="148px" height="27px" id="dark_logo">
+       </div> 
+       <div class="left_nav">
+           <span>Home</span>
+           <span>Podcasts<sup id="sup">NEW</sup></span>
+           <span>Download App</span>
+       </div>
+       <div class="mid_nav">
+           <i class="fa-solid fa-magnifying-glass"></i>
+           <input type="text" name="search" id="search" placeholder="Search for Music you love!">
+       </div>
+       <div class="right_nav">
+           <div id="theme">
+            <i class="fa-solid fa-moon" id="moon"></i>
+            <i class="fa-solid fa-sun" id="sun"></i>
+           </div>
+            
+            <i class="fa-solid fa-language"></i>
+            <span class="sign">Sign In</span>     
+       </div>
+    </nav>
+    <div class="top-slider">
+        <div class="slider">
+            <div class="slides_container">
+                <input type="radio" id="radio1" name="radio">
+                <input type="radio" id="radio2" name="radio">
+                <input type="radio" id="radio3" name="radio" checked="checked">
+                <input type="radio" id="radio4" name="radio">
+                <input type="radio" id="radio5" name="radio">
+                <input type="radio" id="radio6" name="radio">
+                <div class="slide" id="first">
+                    <img src="Images/img1.jpg">
+                </div>
+                <div class="slide" >
+                    <img src="Images/img2.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Images/img3.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Images/img4.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Images/img5.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Images/img6.jpg">
+                </div>
+                <div class="but">
+                    <button onclick="prev()">&lt;</button>
+                    <button onclick="next()">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="release">
+        <div class="New_releases">
+            <span id="new">New Releases</span>
+            <span id="more">More</span>
+        </div>
+    </div>
+    <div class="mid_top-slider">
+        <div class="mid_slider">
+            <div class="mid_slides_container">
+                <input type="radio" id="mid_radio1" name="radioo">
+                <input type="radio" id="mid_radio2" name="radioo">
+                <div class="mid_slide" id="first_ele">
+                    <img src="Images/mid_img1.jpg" id="img">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide" >
+                    <img src="Images/mid_img2.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img3.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img1.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img2.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img3.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img1.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img2.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/mid_img3.jpg" >
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">New release</span>
+                </div>
+            </div>
+            <div class="mid_but">
+                <div class="buttonset">
+                    <button onclick="mid_prev()" id="mid_but1">&lt;</button>
+                    <button onclick="mid_next()" id="mid_but2">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="release">
+        <div class="New_releases">
+            <span id="new">Trending Songs</span>
+            <span id="more">More</span>
+        </div>
+    </div>
+    <div class="mid_top-slider">
+        <div class="mid_slider">
+            <div class="mid_slides_container">
+                <input type="radio" id="mid_radio21" name="radioo2">
+                <input type="radio" id="mid_radio22" name="radioo2">
+                <div class="mid_slide" id="first_ele2">
+                    <img src="Images/img7.jpg" id="img">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                    
+                </div>
+                <div class="mid_slide" >
+                    <img src="Images/img8.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img9.webp">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img10.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img11.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img12.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img13.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img14.jpg">
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+                <div class="mid_slide">
+                    <img src="Images/img15.jpg" >
+                    <div class="back">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" class="playbut"></i>
+                        </div>
+                    </div>
+                    <span class="subti">
+                        Song Name<br>
+                        <span class="artist">Artist - Movie(Language)</span>
+                    </span>
+                </div>
+            </div>
+            <div class="mid_but">
+                <div class="buttonset">
+                    <button onclick="mid_prev2()" id="mid_but21">&lt;</button>
+                    <button onclick="mid_next2()" id="mid_but22">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="emp">
+
+    </div>
+    <div id="end">
+        <div class="foot">
+            <div id="left_bottom">
+                <a href="https://wynk.in/u/gM98LmfJs" target="blank"><img src="Images/img3.jpg" alt="Hip Hop Party"></a>
+                <div class="footext">
+                    <span id="songtit">Kanave Kanave</span>
+                    <span id="artistname">Aniruth - Devid(Tamil)</span>
+                </div>
+                
+            </div>
+            <div id="center_bottom">
+                <i class="fa-solid fa-repeat"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <div class="mid_play">
+                    <i class="fa-solid fa-circle-play" id="but_mid_play"></i>
+                </div>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-shuffle"></i>
+            </div>
+            <div id="right_bottom">
+                <button id="sQuality">Auto</button>
+                <i class="fa-solid fa-volume-high" id="vol"></i>
+                <i class="fa-solid fa-list-music"></i>
+            </div>
+        </div>
+    </div>
+    <div class="tracebot">
+        <div id="trace"></div>
+    </div>    
+    <script>
+    console.log("Hi");
+    let theme=document.getElementById("theme");
+    var mode=true;
+    var player=document.getElementsByClassName("play");
+    for(var i=0;i<player.length;i++){
+        player[i].addEventListener('click',function playerfor (){
+            var rt=document.querySelector(':root');
+            rt.style.setProperty('--dispFoot','flex');
+            rt.style.setProperty('--trans','2s');
+        });
+    }
+    
+    theme.addEventListener('click',function changeTheme (){
+        if(mode){
+            var rt=document.querySelector(':root');
+            rt.style.setProperty('--navBgColor','rgb(33,37,45)');
+            rt.style.setProperty('--navInp','black');
+            rt.style.setProperty('--navColor','white');
+            rt.style.setProperty('--artistColor','#7A7A7C');
+            rt.style.setProperty('--footBgColor','rgb(33,37,45)');
+            rt.style.setProperty('--navBorder','rgb(33,37,45)');
+            document.body.style.color='white';
+            document.body.style.backgroundColor='black';
+            document.getElementById("dark_logo").style.display='initial';
+            document.getElementById("light_logo").style.display='none';
+            document.getElementById("moon").style.display="none";
+            document.getElementById("sun").style.display="initial";
+            mode=false;
+            return;
+        }
+        rt.style.setProperty('--navBgColor','white');
+        rt.style.setProperty('--navInp','white');
+        rt.style.setProperty('--navColor','rgb(65, 64, 64)');
+        rt.style.setProperty('--artistColor','rgb(78, 78, 78)');
+        rt.style.setProperty('--footBgColor','white');
+        rt.style.setProperty('--navBorder','whitesmoke');
+        document.body.style.color='rgb(65, 64, 64)';
+        document.body.style.backgroundColor='white';
+        document.getElementById("dark_logo").style.display='none';
+        document.getElementById("light_logo").style.display='initial';
+        document.getElementById("moon").style.display="initial";
+        document.getElementById("sun").style.display="none";
+        mode=true;
+});       
+        
+    </script>
+</body>
+</html>
