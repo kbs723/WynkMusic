@@ -70,6 +70,7 @@ nav{
     padding: 13px 12px 13px 0px;
     width: 70%;
     transtion: var(--trans);
+    color: var(--navColor);
 }
 input:focus{
     outline: none;
