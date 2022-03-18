@@ -21,7 +21,7 @@
         --navColor:rgb(65, 64, 64);
         --navBorder:whitesmoke;
         --dispFoot:none;
-        --trans:0s;
+        --trans:0.5s;
     }
     </style>
 </head>
@@ -355,7 +355,6 @@
         player[i].addEventListener('click',function playerfor (){
             var rt=document.querySelector(':root');
             rt.style.setProperty('--dispFoot','flex');
-            rt.style.setProperty('--trans','2s');
         });
     }
     var rt=document.querySelector(':root');
