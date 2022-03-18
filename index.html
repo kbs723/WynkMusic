@@ -358,10 +358,10 @@
             rt.style.setProperty('--trans','2s');
         });
     }
-    
+    var rt=document.querySelector(':root');
     theme.addEventListener('click',function changeTheme (){
         if(mode){
-            var rt=document.querySelector(':root');
+            
             rt.style.setProperty('--navBgColor','rgb(33,37,45)');
             rt.style.setProperty('--navInp','black');
             rt.style.setProperty('--navColor','white');
